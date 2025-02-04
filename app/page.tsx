@@ -21,7 +21,7 @@ function HomeContent() {
     const { state } = useAppContext();
 
     return (
-        <div className='max-w-[80%] m-auto'>
+        <div className='m-auto'>
             <h1 className='text-center text-4xl m-6 '>Umbu - Informações sobre a fruta por estados brasileiros</h1>
             <div className="grid grid-cols-[repeat(auto-fit,minmax(600px,1fr))] p-8 mx-auto ">
                 {/* Componente de mapa */}
